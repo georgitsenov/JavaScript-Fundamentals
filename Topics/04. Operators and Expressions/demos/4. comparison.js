@@ -2,8 +2,8 @@
 
 console.log('----------------------------------------------------');
 console.log('Regular comparisons: ');
-const a = 5;
-const b = 4;
+let a = 5;
+let b = 4;
 
 console.log('a = ' + a + ', b = ' + b);
 console.log('(a >= b)  = ' + (a >= b)); // True
@@ -36,4 +36,4 @@ console.log('1 === "1" =' + (oneInt === oneStr));
 console.log('0 == "" = ' + (zeroInt == emptyStr));
 console.log('0 === "" = ' + (zeroInt === emptyStr));
 
-console.log(nullValue == emptyStr)				
+console.log(nullValue == emptyStr)

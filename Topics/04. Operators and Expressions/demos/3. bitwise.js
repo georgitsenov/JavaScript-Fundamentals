@@ -5,7 +5,7 @@ console.log('Bitwise operators with integers:');
 const a = 3;                // 00000000 00000011
 const b = 5;                // 00000000 00000101
 
-console.log(`a = {a}, b = ${b}`);
+console.log(`a = ${a}, b = ${b}`);
 
 console.log('a | b  = ' + (a | b) + ' - > ' + (a | b).toString(2));   // 00000000 00000111
 console.log('a & b  = ' + (a & b) + ' - > ' + (a & b).toString(2));   // 00000000 00000001
@@ -36,4 +36,4 @@ console.log('~true = ' + ~true);
 console.log('~false = ' + ~false);
 console.log('"~JavaScript" = ' + ~'JavaScript')
 console.log('"js" & true = ' + ('js' | true))
-console.log('"js" & true = ' + ('js' ^ true))	
+console.log('"js" & true = ' + ('js' ^ true))
