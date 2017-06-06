@@ -1,12 +1,12 @@
 function solve(args) {
-
-    //let theNumber = parseInt(args[0].substr(-3, 1));
+    "use strict";
+    
     let x = +args[0],
         y = +args[1],
         distance;
 
     distance = Math.sqrt(Math.pow((x - 0) ,2) + Math.pow((y - 0), 2)).toFixed(2);
-    
+
     Math.pow((x - 0), 2) + Math.pow((y - 0), 2) <= Math.pow(2, 2)
         ? console.log("yes " + distance)
         : console.log("no " + distance)
